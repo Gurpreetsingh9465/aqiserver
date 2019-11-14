@@ -27,6 +27,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+WSGI_APPLICATION = 'aqi.wsgi.application'
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+ADMIN_ENABLED = True
+
+
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
