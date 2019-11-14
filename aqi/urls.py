@@ -20,5 +20,6 @@ from .views import *
 
 urlpatterns = [
     path('aqi', AqiApi.as_view()),
+    path('nodes', ConnectionApi.as_view()),
     path('admin/', admin.site.urls),
 ]
